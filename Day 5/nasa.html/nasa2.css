@@ -1,0 +1,10 @@
+.container{
+    width: 100%;
+    min-height: 70svh;
+    display: flex;
+}
+img{
+    width: 22%;
+    height: 90vh;
+    border: 20px solid white;
+}

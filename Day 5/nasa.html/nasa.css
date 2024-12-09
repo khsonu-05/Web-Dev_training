@@ -1,0 +1,19 @@
+.container{
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    border: 5px solid black;
+
+}
+.abc{
+    min-height: 25vh;
+    width: 50%;
+    border: 5px solid black;
+}
+
+
+
+
+
+
+

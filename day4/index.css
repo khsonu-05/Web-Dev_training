@@ -1,0 +1,62 @@
+
+/*.Box{
+    background-color: green;
+    padding: 50px;
+    border: 20px solid red;
+    border-bottom-color: purple;
+    border-top-color: yellow;
+    border-left-color: blue;
+    margin: 50px;
+}*/
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    background-color: black;
+    height: 100svh;
+    width: 100%;
+    overflow: hidden ;
+
+}
+.box{
+height: 150px;
+width: 150px;
+border: 4px solid pink;
+}
+.box-1{
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 380px;
+    z-index: 3;
+}
+.box-2{
+    background-color: red;
+    position: relative;
+    top: 150px;
+    left: 380px;
+    z-index: 3;
+}
+.box-3{
+    background-color: blue;
+    position: relative;
+    bottom: 10px;
+    left: 600px;
+    z-index: 3;
+}
+.box-4{
+    background-color: green;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    z-index: 4;
+}
+.box-5{
+    background-color: purple;
+    position: relative;
+    bottom: 380px;
+    left: 600px;
+    z-index: 3;
+}
+
